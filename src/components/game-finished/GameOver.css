@@ -1,0 +1,37 @@
+.game-over {
+  width: 50vw;
+  margin: 0 auto;
+  padding: 50px 10px;
+  background-color: #5b825d;
+  border: 25px solid #bd7041;
+  border-radius: 10px;
+}
+
+.game-over__info h2 {
+  font-size: 3rem;
+  color: #fee07b;
+}
+
+.game-over__info h2 span {
+  color: rgb(190, 31, 31);
+  text-decoration: underline wavy;
+}
+
+.game-over__info p {
+  margin: 5rem auto;
+  font-size: 1.5rem;
+  color: #fffffd;
+}
+
+.game-over__buttons {
+  margin-top: 5rem;
+}
+
+.game-over__buttons a {
+  display: inline-block;
+  transform: scale(0.9);
+}
+
+.game-over__buttons a:first-child {
+  margin-right: 2rem;
+}

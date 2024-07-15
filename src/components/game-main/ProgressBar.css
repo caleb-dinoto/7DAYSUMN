@@ -1,0 +1,36 @@
+.progress-full {
+  display: flex;
+  flex-direction: row;
+}
+
+.progress-full .icon {
+  vertical-align: middle;
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.progress {
+  height: 20px;
+  /* max-width: 25%; */
+  min-width: 10vw;
+  margin: 1rem auto;
+}
+
+.danger {
+  animation: kedap-kedip 1.5s ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes kedap-kedip {
+  0% {
+    border: 2px solid transparent;
+  }
+
+  50% {
+    border: 2px solid red;
+  }
+
+  100% {
+    border: 2px solid transparent;
+  }
+}

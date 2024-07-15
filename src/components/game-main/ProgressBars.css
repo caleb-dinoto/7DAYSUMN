@@ -1,0 +1,9 @@
+.game__progress-bars {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  border: 3px solid #be7143;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}

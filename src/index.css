@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+
+/* GLOBAL STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Mansalva, cursive, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.game-button {
+  text-decoration: none;
+  color: #000000;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #fee07b;
+  border: 5px solid #fee07b;
+  transition: 0.2s ease-in;
+}
+
+.game-button:hover {
+  background-color: #fefbea;
+}
+
+.landing,
+.creation,
+.game-main,
+.tutorial-content,
+.credits,
+.game-over,
+.game-review {
+  animation: fade-in 1s;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

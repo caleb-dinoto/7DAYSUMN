@@ -1,0 +1,49 @@
+.credits-title {
+  background-color: #5b825d;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  padding: 10px 15px;
+  border: 25px solid #bd7041;
+  border-top: 0;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 1.5rem;
+}
+
+.credits-title h1 span:nth-child(1) {
+  color: #fee07b;
+}
+
+.credits-title h1 span:nth-child(2) {
+  color: #fffffd;
+}
+
+.credits-content {
+  padding: 0 10vw 0 10vw;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.credit-frame {
+  max-width: 30%;
+  border-bottom: 7px solid #bd7041;
+  border-right: 1px solid #bd7041;
+  border-left: 1px solid #bd7041;
+  border-top: 1px solid #bd7041;
+  border-radius: 0 0 10px 10px;
+}
+
+.credit-frame img {
+  height: auto;
+  width: 45%;
+}
+
+.credit-frame p {
+  font-size: 1.3rem;
+}
+
+.caption {
+  font-size: 1.5rem;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}

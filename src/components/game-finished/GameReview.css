@@ -1,0 +1,39 @@
+.game-review {
+  width: 50vw;
+  margin: 0 auto 2rem auto;
+  padding: 50px 10px;
+  background-color: #5b825d;
+  border: 25px solid #bd7041;
+  border-radius: 10px;
+}
+
+.game-review p {
+  font-size: 1.5rem;
+  color: #fffffd;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.game-review li {
+  font-size: 1.2rem;
+  color: #fffffd;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.game-review__info {
+  padding: 5px 30px;
+  margin-bottom: 5rem;
+}
+
+.game-review__info h2 {
+  color: #fffffd;
+}
+
+.game-review__info h2 span {
+  color: #fee07b;
+}
+
+.game-review__buttons a:first-child {
+  margin-right: 2rem;
+}

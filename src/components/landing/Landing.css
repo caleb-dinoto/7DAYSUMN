@@ -1,0 +1,30 @@
+.landing {
+  background-color: #fffae9;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  background-image: url('../../images/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.landing img {
+  position: relative;
+}
+
+.landing__content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.landing__content .landing__buttons {
+  margin-top: 25px;
+}
+
+.landing__content .landing__buttons a:nth-child(2) {
+  margin-left: 25px;
+  margin-right: 25px;
+}

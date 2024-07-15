@@ -1,0 +1,18 @@
+.title-top {
+  background-color: #5b825d;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  padding: 10px 15px;
+  border: 25px solid #bd7041;
+  border-top: 0;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 1.5rem;
+}
+
+.seven-days {
+  color: #fee07b;
+}
+
+.student {
+  color: #fffffd;
+}

@@ -1,0 +1,27 @@
+.tutorial-content {
+  min-height: 100vh;
+}
+
+.tutorial-list {
+  width: 50%;
+  margin: 3rem auto;
+  text-align: left;
+  font-size: 1.2rem;
+  border-left: 25px solid #bd7041;
+}
+
+.tutorial-list li {
+  margin-bottom: 2rem;
+}
+
+.tutorial-list li p {
+  margin-left: 1rem;
+}
+
+.tutorial-list li::marker {
+  color: white;
+}
+
+.tutorial-list .game-button {
+  margin-bottom: 1rem;
+}

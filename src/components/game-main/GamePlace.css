@@ -1,0 +1,14 @@
+.game__place-title {
+  text-transform: capitalize;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.action-button {
+  padding: 5px 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}

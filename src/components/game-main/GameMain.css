@@ -1,0 +1,131 @@
+.game-main {
+  min-height: 90vh;
+}
+
+.game-center {
+  display: flex;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  min-height: 63vh;
+}
+
+.bg-home {
+  background-image: url('../../images/home.jpeg');
+}
+
+.bg-home-night {
+  background-image: url('../../images/home-night.jpg');
+  /* background-position: 0 -1.7rem; */
+}
+
+.bg-kampus {
+  background-image: url('../../images/campus.jpeg');
+}
+
+/* .bg-kampus-night {
+  background-image: url('../../images/campus-night.jpeg');
+} */
+
+.bg-cafe {
+  background-image: url('../../images/cafe.jpeg');
+  background-position: 0 -6.25rem;
+}
+
+.bg-cafe-night {
+  background-image: url('../../images/cafe-night.jpeg');
+  background-position: 0 -6.25rem;
+}
+
+.game-center h2 {
+  color: #fffffd;
+}
+
+.game-center p {
+  margin-bottom: 0;
+}
+
+.layout-left,
+.layout-right {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.layout-center {
+  width: 60%;
+  color: #fffffd;
+}
+
+.layout-center .player-info,
+.layout-left .game__travel,
+.layout-left .game__gadget,
+.layout-right .game__place,
+.layout-right .game__time {
+  background-color: rgba(199, 188, 151, 0.95);
+}
+
+.layout-left .game__travel,
+.layout-left .game__gadget,
+.layout-right .game__place,
+.layout-right .game__time {
+  padding: 5px 10px;
+}
+
+.layout-center .player-info {
+  font-size: 0.9rem;
+  display: inline-block;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+.layout-left .game__travel {
+  border-radius: 10px 0 10px 0;
+}
+
+.layout-left .game__gadget {
+  border-radius: 0 10px 0 10px;
+  width: 100%;
+}
+
+.layout-right .game__place {
+  border-radius: 0 10px 0 10px;
+}
+
+.layout-right .game__time {
+  border-radius: 10px 0 10px 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.game-main button {
+  border-radius: 10px;
+}
+
+/* Kasih style button hover untuk yang gak disabled aja */
+.game-main button:hover:not(:disabled) {
+  background-color: #ffff91;
+}
+
+.player-info p {
+  font-size: 1.5rem;
+}
+
+.place-button {
+  padding: 5px 10px;
+}
+
+button:disabled {
+  padding: 5px 10px;
+}
+
+.game__travel button {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
